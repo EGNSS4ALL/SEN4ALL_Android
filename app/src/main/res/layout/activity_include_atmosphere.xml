@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:background="@color/primary">
+
+    <LinearLayout
+        android:tag="layerSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/satLabel"
+            android:text="@string/sentinel_5"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            app:drawableStartCompat="@drawable/icons_sat"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/activate_layer_so2"
+            style="@style/layerButton"
+            android:tag="sentinel5/SO2"
+            android:text="SO2"/>
+        <Button
+            android:id="@+id/activate_layer_o3"
+            style="@style/layerButton"
+            android:tag="sentinel5/O3"
+            android:text="O3"/>
+        <Button
+            android:id="@+id/activate_layer_no2"
+            style="@style/layerButton"
+            android:tag="sentinel5/NO2"
+            android:text="NO2"/>
+        <Button
+            android:id="@+id/activate_layer_hcho"
+            style="@style/layerButton"
+            android:tag="sentinel5/HCHO"
+            android:text="HCHO"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_co"
+            android:tag="sentinel5/CO"
+            android:text="CO"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_ch4"
+            android:tag="sentinel5/CH4"
+            android:text="CH4"/>
+    </LinearLayout>
+
+</ScrollView>

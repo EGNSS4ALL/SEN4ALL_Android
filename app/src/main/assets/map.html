@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link href='lib/ol.css' rel='stylesheet'>
+    <script src="lib/ol.js"></script>
+    <script src="lib/dexie.min.js"></script>
+    <link href='map.css' rel='stylesheet'>
+    <link href='lib/boxicons.min.css' rel='stylesheet'>
+    <script src="mapCommon.js"></script>
+    <script src="map.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="padding:0px; margin:0px;height:100vh">
+    <div id="map" style="width:100vw; height:100vh; padding:0px; margin:0px;"></div>
+    <div id="info" class="draw-controls">
+        <img class="btn-download rounded-left" src="img/btn_download.svg" name='download' onclick="downloadFeatureImage()">
+        <img class="btn-trash rounded-right" src="img/btn_trash.svg" name='trash' onclick="deleteFeature()">
+    </div>
+</body>
+</html>

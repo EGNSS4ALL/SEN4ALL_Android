@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:background="@color/primary">
+
+    <LinearLayout
+        android:tag="layerSelector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/satLabel"
+            android:text="@string/sentinel_1"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            app:drawableStartCompat="@drawable/icons_sat"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_water_roughness"
+            android:tag="sentinel1/WATER-ROUGHNESS"
+            android:text="Water Roughness"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_urban_area"
+            android:tag="sentinel1/URBAN-DETECTION"
+            android:text="Urban Area"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_crop_monitor"
+            android:tag="sentinel1/ENHANCED-VISUALIZATION"
+            android:text="Crop Monitoring"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_iwvv"
+            android:tag="sentinel1/IW_VV"
+            android:text="IW-VV"/>
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_iwvh"
+            android:tag="sentinel1/IW_VH"
+            android:text="IW-VH"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/satLabel"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            android:text="@string/sentinel_2"
+            app:drawableStartCompat="@drawable/icons_sat"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel2/MOISTURE"
+            android:text="Moisture"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel2/3_NDVI"
+            android:text="NDVI"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/satLabel"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            android:text="@string/sentinel_3"
+            app:drawableStartCompat="@drawable/icons_sat"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel3/F1_VISUALIZED"
+            android:text="F1 Brightness Temperature"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel3/F2_VISUALIZED"
+            android:text="F2 Brightness Temperature"/>
+
+    </LinearLayout>
+</ScrollView>

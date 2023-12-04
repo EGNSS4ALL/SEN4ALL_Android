@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/dark</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/roboto_family</item>
+    </style>
+
+    <style name="satLabel">
+        <item name="android:textColor">@color/primaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="layerButton">
+        <item name="android:background">@drawable/buttons_layer</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="editText" parent="AppTheme">
+        <item name="android:background">@drawable/buttons_mapitem</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColorHint">@color/primaryDark</item>
+    </style>
+
+    <style name="mapInfoText" parent="AppTheme">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+
+    <style name="AboutDialogTheme">
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+    </style>
+
+    <style name="DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/accent</item>
+        <item name="android:colorControlHighlight">@color/primaryDark</item>
+        <item name="android:colorControlNormal">@color/primaryDark</item>
+        <item name="android:statusBarColor">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.DatePickerDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorControlActivated">@color/accent</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/AppTheme.Alert.Button.Positive</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AppTheme.Alert.Button.Negative</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/AppTheme.Alert.Button.Neutral</item>
+        <item name="android:buttonTint">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Alert.Button.Negative" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Alert.Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:background="@color/primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="64dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/satLabel"
+            android:text="@string/sentinel_1"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            app:drawableStartCompat="@drawable/icons_sat"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            style="@style/layerButton"
+            android:id="@+id/activate_layer_water_roughness_marine"
+            android:tag="sentinel1/WATER-ROUGHNESS"
+            android:text="Water Roughness"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel1/URBAN-DETECTION"
+            android:id="@+id/activate_layer_urban_area_marine"
+            android:text="Urban Area"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel1/ENHANCED-VISUALIZATION"
+            android:id="@+id/activate_layer_crop_monitor_marine"
+            android:text="Crop Monitoring"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel1/IW_VV"
+            android:id="@+id/activate_layer_iwvv_marine"
+            android:text="IW-VV"/>
+        <Button
+            style="@style/layerButton"
+            android:tag="sentinel1/IW_VH"
+            android:id="@+id/activate_layer_iwvh_marine"
+            android:text="IW-VH"/>
+    </LinearLayout>
+
+</ScrollView>
