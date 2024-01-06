@@ -201,8 +201,8 @@ information and the user can use different interaction with the
 application</span></span></span></span>
 
 <span
-style="background: transparent">**F<img src="./media/d060266065d38f5f.png" width="643" height="570" />
-igure** **2: Main Screen**</span>
+style="background: transparent">**Figure** **2: Main Screen**<img src="./media/d060266065d38f5f.png" width="643" height="570" />
+</span>
 
   
   
