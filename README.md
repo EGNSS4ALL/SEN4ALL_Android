@@ -201,46 +201,9 @@ information and the user can use different interaction with the
 application</span></span></span></span>
 
 <img src="./media/d2e00048ae7e8fa7.png" width="270" height="557" />
-<img src="./media/d39febe88690bf64.gif" width="265" height="20" alt="Forma11" />  
   
 
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal">Location
-</span></span></span>Search
 
-  
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span
-style="font-style: normal">M<img src="./media/d39febe88690bf64.gif" width="265" height="20" alt="Forma12" />
-ap zoom level</span></span></span>
-
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span
-style="font-style: normal">a<img src="./media/b39644b6fbb09cdb.gif" width="450" height="81" alt="Forma13" />
-nd real world</span></span></span>
-
-Pixel size
-
-  
-  
-
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal">Date
-selection</span></span></span>
-
-<img src="./media/fce216c38ad2b668.gif" width="404" height="20" alt="Forma14" />  
-  
-
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal">Map Zoom
-control buttons </span></span></span>
-
-<img src="./media/319cdcc8f264bdc8.gif" width="440" height="20" alt="Forma15" />  
-  
-
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal">GPS
-location button </span></span></span>
 
   
   
@@ -248,26 +211,7 @@ location button </span></span></span>
   
   
 
-  
-  
-
-  
-  
-
-  
-Context and Layer selection<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal">
-</span></span></span><img src="./media/22387c162e90a28a.gif" width="314" height="20" alt="Forma16" />
-
-  
-  
-
-  
-  
-
-<span style="font-variant: normal"><span
-style="text-decoration: none"><span style="font-style: normal"><span
-style="background: transparent">In the map section the user can choose
+In the map section the user can choose
 different layers, based on the use case and sensor selected
 before.</span></span></span></span>
 
